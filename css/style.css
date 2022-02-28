@@ -1,0 +1,72 @@
+/* Default Styling */
+* {
+	margin: 0;
+	padding: 0;
+}
+/* Navigation Menu Styling */
+.nav,
+.menu-container,
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav,
+.hero {
+	background-color: #004644;
+	padding: 20px 150px;
+}
+
+.logo h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	font-weight: 600;
+	color: aliceblue;
+}
+
+.menu a,
+.nav-btn a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: aliceblue;
+	text-decoration: none;
+	padding-right: 30px;
+}
+
+.nav-btn a {
+	background-color: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.2);
+	padding: 10px 30px;
+}
+.nav-btn a:hover {
+	background-color: aliceblue;
+	color: #004644;
+}
+
+/* Hero Section Styling  */
+.hero-text h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 60px;
+	font-weight: 700;
+	color: white;
+	padding-bottom: 30px;
+}
+.hero-text p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #fafafaba;
+	padding-bottom: 40px;
+	line-height: 40px;
+}
+
+.hero-text a {
+	background-color: #dd5428;
+	padding: 20px 30px;
+	border-radius: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;
+}
